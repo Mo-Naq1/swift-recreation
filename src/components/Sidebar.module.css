@@ -1,0 +1,105 @@
+.sidebar {
+  width: 240px;
+  height: 100vh;
+  background-color: white;
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.top {
+  padding: 1.5rem 1rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2.5rem;
+  padding: 0 0.5rem;
+  position: relative;
+}
+
+.logoSvg {
+  width: 24px;
+  height: 24px;
+}
+
+.brandName {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-main);
+  letter-spacing: -0.02em;
+}
+
+.profileIcon {
+  margin-left: auto;
+  color: #9ca3af;
+  background: #f3f4f6;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 0.75rem;
+  border-radius: 0.5rem;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.navItem:hover {
+  background-color: #f9fafb;
+  color: var(--text-main);
+}
+
+.navItem.active {
+  background-color: #f3f4f6;
+  color: var(--text-main);
+  font-weight: 600;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+}
+
+.bottom {
+  padding: 1.5rem;
+  border-top: 1px solid #f3f4f6;
+  margin-bottom: 1rem;
+}
+
+.userProfile {
+  position: relative;
+  display: flex;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border: 2px solid white;
+}

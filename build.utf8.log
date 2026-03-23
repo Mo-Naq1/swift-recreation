@@ -1,0 +1,692 @@
+﻿
+> swift-recreation@0.1.0 build
+> next build
+
+node.exe : ΓÜá 
+Warning: Next.js 
+inferred your 
+workspace root, but 
+it may not be correct.
+At line:1 char:1
++ & "C:\Program Files\
+nodejs/node.exe" "C:\U
+sers\mohdn\AppData\Roa
+ming\ ...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (ΓÜá Warnin   
+ g: Ne...not be co    
+rrect.:String) []    
+, RemoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+ We detected multiple 
+lockfiles and 
+selected the 
+directory of C:\Users\
+mohdn\package-lock.jso
+n as the root 
+directory.
+ To silence this 
+warning, set 
+`turbopack.root` in 
+your Next.js config, 
+or consider removing 
+one of the lockfiles 
+if it's not needed.
+   See https://nextjs.
+org/docs/app/api-refer
+ence/config/next-confi
+g-js/turbopack#root-di
+rectory for more 
+information.
+ Detected additional 
+lockfiles: 
+   * C:\Users\mohdn\On
+eDrive\Desktop\project
+s\swift-recreation\pac
+kage-lock.json
+
+Γû▓ Next.js 16.2.1 (Turbopack)
+
+  Creating an optimized production build ...
+
+> Build error occurred
+Error: Turbopack 
+build failed with 7 
+errors:
+./OneDrive/Desktop/pro
+jects/swift-recreation
+/src/app/globals.css
+Error evaluating 
+Node.js code
+Error: Cannot find 
+module 
+'@tailwindcss/postcss'
+Require stack:
+- C:\Users\mohdn\OneDr
+ive\Desktop\projects\s
+wift-recreation\.next\
+build\chunks\[root-of-
+the-server]__01m1q5e._
+.js
+- C:\Users\mohdn\OneDr
+ive\Desktop\projects\s
+wift-recreation\.next\
+build\chunks\[turbopac
+k]_runtime.js
+- C:\Users\mohdn\OneDr
+ive\Desktop\projects\s
+wift-recreation\.next\
+build\postcss.js
+    [at Module._resolv
+eFilename (node:intern
+al/modules/cjs/loader:
+1421:15)]
+    [at 
+defaultResolveImpl (no
+de:internal/modules/cj
+s/loader:1059:19)]
+    [at resolveForCJSW
+ithHooks (node:interna
+l/modules/cjs/loader:1
+064:22)]
+    [at Module._load (
+node:internal/modules/
+cjs/loader:1227:37)]
+    [at TracingChannel
+.traceSync (node:diagn
+ostics_channel:328:14)
+]
+    [at 
+wrapModuleLoad (node:i
+nternal/modules/cjs/lo
+ader:245:24)]
+    [at 
+Module.require (node:i
+nternal/modules/cjs/lo
+ader:1504:12)]
+    [at require (node:
+internal/modules/helpe
+rs:152:16)]
+    at require (turbop
+ack:///[turbopack-node
+]/transforms/postcss.t
+s:49:25) [C:\Users\moh
+dn\OneDrive\Desktop\pr
+ojects\swift-recreatio
+n\.next\build\chunks\[
+root-of-the-server]__0
+1m1q5e._.js:134:33]
+    [at <anonymous>]
+
+Import trace:
+  Client Component 
+Browser:
+    ./OneDrive/Desktop
+/projects/swift-recrea
+tion/src/app/globals.c
+ss [Client Component 
+Browser]
+    ./OneDrive/Desktop
+/projects/swift-recrea
+tion/src/app/layout.js
+ [Server Component]
+
+
+./OneDrive/Desktop/pro
+jects/swift-recreation
+/src/components/CtaSec
+tion.module.css
+Error evaluating 
+Node.js code
+Error: Cannot find 
+module 
+'@tailwindcss/postcss'
+Require stack:
+- C:\Users\mohdn\OneDr
+ive\Desktop\projects\s
+wift-recreation\.next\
+build\chunks\[root-of-
+the-server]__01m1q5e._
+.js
+- C:\Users\mohdn\OneDr
+ive\Desktop\projects\s
+wift-recreation\.next\
+build\chunks\[turbopac
+k]_runtime.js
+- C:\Users\mohdn\OneDr
+ive\Desktop\projects\s
+wift-recreation\.next\
+build\postcss.js
+    [at Module._resolv
+eFilename (node:intern
+al/modules/cjs/loader:
+1421:15)]
+    [at 
+defaultResolveImpl (no
+de:internal/modules/cj
+s/loader:1059:19)]
+    [at resolveForCJSW
+ithHooks (node:interna
+l/modules/cjs/loader:1
+064:22)]
+    [at Module._load (
+node:internal/modules/
+cjs/loader:1227:37)]
+    [at TracingChannel
+.traceSync (node:diagn
+ostics_channel:328:14)
+]
+    [at 
+wrapModuleLoad (node:i
+nternal/modules/cjs/lo
+ader:245:24)]
+    [at 
+Module.require (node:i
+nternal/modules/cjs/lo
+ader:1504:12)]
+    [at require (node:
+internal/modules/helpe
+rs:152:16)]
+    at require (turbop
+ack:///[turbopack-node
+]/transforms/postcss.t
+s:49:25) [C:\Users\moh
+dn\OneDrive\Desktop\pr
+ojects\swift-recreatio
+n\.next\build\chunks\[
+root-of-the-server]__0
+1m1q5e._.js:134:33]
+    [at <anonymous>]
+
+Import trace:
+  Server Component:
+    ./OneDrive/Desktop
+/projects/swift-recrea
+tion/src/components/Ct
+aSection.module.css
+    ./OneDrive/Desktop
+/projects/swift-recrea
+tion/src/components/Ct
+aSection.jsx
+    ./OneDrive/Desktop
+/projects/swift-recrea
+tion/src/app/page.js
+
+
+./OneDrive/Desktop/pro
+jects/swift-recreation
+/src/components/Featur
+esSection.module.css
+Error evaluating 
+Node.js code
+Error: Cannot find 
+module 
+'@tailwindcss/postcss'
+Require stack:
+- C:\Users\mohdn\OneDr
+ive\Desktop\projects\s
+wift-recreation\.next\
+build\chunks\[root-of-
+the-server]__01m1q5e._
+.js
+- C:\Users\mohdn\OneDr
+ive\Desktop\projects\s
+wift-recreation\.next\
+build\chunks\[turbopac
+k]_runtime.js
+- C:\Users\mohdn\OneDr
+ive\Desktop\projects\s
+wift-recreation\.next\
+build\postcss.js
+    [at Module._resolv
+eFilename (node:intern
+al/modules/cjs/loader:
+1421:15)]
+    [at 
+defaultResolveImpl (no
+de:internal/modules/cj
+s/loader:1059:19)]
+    [at resolveForCJSW
+ithHooks (node:interna
+l/modules/cjs/loader:1
+064:22)]
+    [at Module._load (
+node:internal/modules/
+cjs/loader:1227:37)]
+    [at TracingChannel
+.traceSync (node:diagn
+ostics_channel:328:14)
+]
+    [at 
+wrapModuleLoad (node:i
+nternal/modules/cjs/lo
+ader:245:24)]
+    [at 
+Module.require (node:i
+nternal/modules/cjs/lo
+ader:1504:12)]
+    [at require (node:
+internal/modules/helpe
+rs:152:16)]
+    at require (turbop
+ack:///[turbopack-node
+]/transforms/postcss.t
+s:49:25) [C:\Users\moh
+dn\OneDrive\Desktop\pr
+ojects\swift-recreatio
+n\.next\build\chunks\[
+root-of-the-server]__0
+1m1q5e._.js:134:33]
+    [at <anonymous>]
+
+Import trace:
+  Server Component:
+    ./OneDrive/Desktop
+/projects/swift-recrea
+tion/src/components/Fe
+aturesSection.module.c
+ss
+    ./OneDrive/Desktop
+/projects/swift-recrea
+tion/src/components/Fe
+aturesSection.jsx
+    ./OneDrive/Desktop
+/projects/swift-recrea
+tion/src/app/page.js
+
+
+./OneDrive/Desktop/pro
+jects/swift-recreation
+/src/components/Footer
+.module.css
+Error evaluating 
+Node.js code
+Error: Cannot find 
+module 
+'@tailwindcss/postcss'
+Require stack:
+- C:\Users\mohdn\OneDr
+ive\Desktop\projects\s
+wift-recreation\.next\
+build\chunks\[root-of-
+the-server]__01m1q5e._
+.js
+- C:\Users\mohdn\OneDr
+ive\Desktop\projects\s
+wift-recreation\.next\
+build\chunks\[turbopac
+k]_runtime.js
+- C:\Users\mohdn\OneDr
+ive\Desktop\projects\s
+wift-recreation\.next\
+build\postcss.js
+    [at Module._resolv
+eFilename (node:intern
+al/modules/cjs/loader:
+1421:15)]
+    [at 
+defaultResolveImpl (no
+de:internal/modules/cj
+s/loader:1059:19)]
+    [at resolveForCJSW
+ithHooks (node:interna
+l/modules/cjs/loader:1
+064:22)]
+    [at Module._load (
+node:internal/modules/
+cjs/loader:1227:37)]
+    [at TracingChannel
+.traceSync (node:diagn
+ostics_channel:328:14)
+]
+    [at 
+wrapModuleLoad (node:i
+nternal/modules/cjs/lo
+ader:245:24)]
+    [at 
+Module.require (node:i
+nternal/modules/cjs/lo
+ader:1504:12)]
+    [at require (node:
+internal/modules/helpe
+rs:152:16)]
+    at require (turbop
+ack:///[turbopack-node
+]/transforms/postcss.t
+s:49:25) [C:\Users\moh
+dn\OneDrive\Desktop\pr
+ojects\swift-recreatio
+n\.next\build\chunks\[
+root-of-the-server]__0
+1m1q5e._.js:134:33]
+    [at <anonymous>]
+
+Import trace:
+  Server Component:
+    ./OneDrive/Desktop
+/projects/swift-recrea
+tion/src/components/Fo
+oter.module.css
+    ./OneDrive/Desktop
+/projects/swift-recrea
+tion/src/components/Fo
+oter.jsx
+    ./OneDrive/Desktop
+/projects/swift-recrea
+tion/src/app/layout.js
+
+
+./OneDrive/Desktop/pro
+jects/swift-recreation
+/src/components/HeroSe
+ction.module.css
+Error evaluating 
+Node.js code
+Error: Cannot find 
+module 
+'@tailwindcss/postcss'
+Require stack:
+- C:\Users\mohdn\OneDr
+ive\Desktop\projects\s
+wift-recreation\.next\
+build\chunks\[root-of-
+the-server]__01m1q5e._
+.js
+- C:\Users\mohdn\OneDr
+ive\Desktop\projects\s
+wift-recreation\.next\
+build\chunks\[turbopac
+k]_runtime.js
+- C:\Users\mohdn\OneDr
+ive\Desktop\projects\s
+wift-recreation\.next\
+build\postcss.js
+    [at Module._resolv
+eFilename (node:intern
+al/modules/cjs/loader:
+1421:15)]
+    [at 
+defaultResolveImpl (no
+de:internal/modules/cj
+s/loader:1059:19)]
+    [at resolveForCJSW
+ithHooks (node:interna
+l/modules/cjs/loader:1
+064:22)]
+    [at Module._load (
+node:internal/modules/
+cjs/loader:1227:37)]
+    [at TracingChannel
+.traceSync (node:diagn
+ostics_channel:328:14)
+]
+    [at 
+wrapModuleLoad (node:i
+nternal/modules/cjs/lo
+ader:245:24)]
+    [at 
+Module.require (node:i
+nternal/modules/cjs/lo
+ader:1504:12)]
+    [at require (node:
+internal/modules/helpe
+rs:152:16)]
+    at require (turbop
+ack:///[turbopack-node
+]/transforms/postcss.t
+s:49:25) [C:\Users\moh
+dn\OneDrive\Desktop\pr
+ojects\swift-recreatio
+n\.next\build\chunks\[
+root-of-the-server]__0
+1m1q5e._.js:134:33]
+    [at <anonymous>]
+
+Import trace:
+  Server Component:
+    ./OneDrive/Desktop
+/projects/swift-recrea
+tion/src/components/He
+roSection.module.css
+    ./OneDrive/Desktop
+/projects/swift-recrea
+tion/src/components/He
+roSection.jsx
+    ./OneDrive/Desktop
+/projects/swift-recrea
+tion/src/app/page.js
+
+
+./OneDrive/Desktop/pro
+jects/swift-recreation
+/src/components/LogoCl
+oud.module.css
+Error evaluating 
+Node.js code
+Error: Cannot find 
+module 
+'@tailwindcss/postcss'
+Require stack:
+- C:\Users\mohdn\OneDr
+ive\Desktop\projects\s
+wift-recreation\.next\
+build\chunks\[root-of-
+the-server]__01m1q5e._
+.js
+- C:\Users\mohdn\OneDr
+ive\Desktop\projects\s
+wift-recreation\.next\
+build\chunks\[turbopac
+k]_runtime.js
+- C:\Users\mohdn\OneDr
+ive\Desktop\projects\s
+wift-recreation\.next\
+build\postcss.js
+    [at Module._resolv
+eFilename (node:intern
+al/modules/cjs/loader:
+1421:15)]
+    [at 
+defaultResolveImpl (no
+de:internal/modules/cj
+s/loader:1059:19)]
+    [at resolveForCJSW
+ithHooks (node:interna
+l/modules/cjs/loader:1
+064:22)]
+    [at Module._load (
+node:internal/modules/
+cjs/loader:1227:37)]
+    [at TracingChannel
+.traceSync (node:diagn
+ostics_channel:328:14)
+]
+    [at 
+wrapModuleLoad (node:i
+nternal/modules/cjs/lo
+ader:245:24)]
+    [at 
+Module.require (node:i
+nternal/modules/cjs/lo
+ader:1504:12)]
+    [at require (node:
+internal/modules/helpe
+rs:152:16)]
+    at require (turbop
+ack:///[turbopack-node
+]/transforms/postcss.t
+s:49:25) [C:\Users\moh
+dn\OneDrive\Desktop\pr
+ojects\swift-recreatio
+n\.next\build\chunks\[
+root-of-the-server]__0
+1m1q5e._.js:134:33]
+    [at <anonymous>]
+
+Import trace:
+  Server Component:
+    ./OneDrive/Desktop
+/projects/swift-recrea
+tion/src/components/Lo
+goCloud.module.css
+    ./OneDrive/Desktop
+/projects/swift-recrea
+tion/src/components/Lo
+goCloud.jsx
+    ./OneDrive/Desktop
+/projects/swift-recrea
+tion/src/app/page.js
+
+
+./OneDrive/Desktop/pro
+jects/swift-recreation
+/src/components/Navbar
+.module.css
+Error evaluating 
+Node.js code
+Error: Cannot find 
+module 
+'@tailwindcss/postcss'
+Require stack:
+- C:\Users\mohdn\OneDr
+ive\Desktop\projects\s
+wift-recreation\.next\
+build\chunks\[root-of-
+the-server]__01m1q5e._
+.js
+- C:\Users\mohdn\OneDr
+ive\Desktop\projects\s
+wift-recreation\.next\
+build\chunks\[turbopac
+k]_runtime.js
+- C:\Users\mohdn\OneDr
+ive\Desktop\projects\s
+wift-recreation\.next\
+build\postcss.js
+    [at Module._resolv
+eFilename (node:intern
+al/modules/cjs/loader:
+1421:15)]
+    [at 
+defaultResolveImpl (no
+de:internal/modules/cj
+s/loader:1059:19)]
+    [at resolveForCJSW
+ithHooks (node:interna
+l/modules/cjs/loader:1
+064:22)]
+    [at Module._load (
+node:internal/modules/
+cjs/loader:1227:37)]
+    [at TracingChannel
+.traceSync (node:diagn
+ostics_channel:328:14)
+]
+    [at 
+wrapModuleLoad (node:i
+nternal/modules/cjs/lo
+ader:245:24)]
+    [at 
+Module.require (node:i
+nternal/modules/cjs/lo
+ader:1504:12)]
+    [at require (node:
+internal/modules/helpe
+rs:152:16)]
+    at require (turbop
+ack:///[turbopack-node
+]/transforms/postcss.t
+s:49:25) [C:\Users\moh
+dn\OneDrive\Desktop\pr
+ojects\swift-recreatio
+n\.next\build\chunks\[
+root-of-the-server]__0
+1m1q5e._.js:134:33]
+    [at <anonymous>]
+
+Import trace:
+  Server Component:
+    ./OneDrive/Desktop
+/projects/swift-recrea
+tion/src/components/Na
+vbar.module.css
+    ./OneDrive/Desktop
+/projects/swift-recrea
+tion/src/components/Na
+vbar.jsx
+    ./OneDrive/Desktop
+/projects/swift-recrea
+tion/src/app/layout.js
+
+
+    at require (turbop
+ack:///[turbopack-node
+]/transforms/postcss.t
+s:49:25) [C:\Users\moh
+dn\OneDrive\Desktop\pr
+ojects\swift-recreatio
+n\.next\build\chunks\[
+root-of-the-server]__0
+1m1q5e._.js:134:33])
+    at require (turbop
+ack:///[turbopack-node
+]/transforms/postcss.t
+s:49:25) [C:\Users\moh
+dn\OneDrive\Desktop\pr
+ojects\swift-recreatio
+n\.next\build\chunks\[
+root-of-the-server]__0
+1m1q5e._.js:134:33])
+    at require (turbop
+ack:///[turbopack-node
+]/transforms/postcss.t
+s:49:25) [C:\Users\moh
+dn\OneDrive\Desktop\pr
+ojects\swift-recreatio
+n\.next\build\chunks\[
+root-of-the-server]__0
+1m1q5e._.js:134:33])
+    at require (turbop
+ack:///[turbopack-node
+]/transforms/postcss.t
+s:49:25) [C:\Users\moh
+dn\OneDrive\Desktop\pr
+ojects\swift-recreatio
+n\.next\build\chunks\[
+root-of-the-server]__0
+1m1q5e._.js:134:33])
+    at require (turbop
+ack:///[turbopack-node
+]/transforms/postcss.t
+s:49:25) [C:\Users\moh
+dn\OneDrive\Desktop\pr
+ojects\swift-recreatio
+n\.next\build\chunks\[
+root-of-the-server]__0
+1m1q5e._.js:134:33])
+    at require (turbop
+ack:///[turbopack-node
+]/transforms/postcss.t
+s:49:25) [C:\Users\moh
+dn\OneDrive\Desktop\pr
+ojects\swift-recreatio
+n\.next\build\chunks\[
+root-of-the-server]__0
+1m1q5e._.js:134:33])
+    at require (turbop
+ack:///[turbopack-node
+]/transforms/postcss.t
+s:49:25) [C:\Users\moh
+dn\OneDrive\Desktop\pr
+ojects\swift-recreatio
+n\.next\build\chunks\[
+root-of-the-server]__0
+1m1q5e._.js:134:33])
